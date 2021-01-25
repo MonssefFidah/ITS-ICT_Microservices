@@ -2,26 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5b968e7-ccc8-4ca4-86c2-44361691c28b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/labs/microservices/customer/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/microservices/customer/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/microservices/customer/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/microservices/customer/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/microservices/customer/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/microservices/customer/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/microservices/customer/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/microservices/customer/customer.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/microservices/customer/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/microservices/customer/pom_orig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/microservices/customer/src/main/java/it/sunnyvale/academy/microservices/CustomerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/microservices/customer/src/main/java/it/sunnyvale/academy/microservices/config/SwaggerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/microservices/customer/src/main/java/it/sunnyvale/academy/microservices/controllers/CustomerController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/microservices/customer/src/main/java/it/sunnyvale/academy/microservices/exceptions/CustomerNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/microservices/customer/src/main/java/it/sunnyvale/academy/microservices/model/Customer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/microservices/customer/src/main/java/it/sunnyvale/academy/microservices/repos/CustomerRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/microservices/customer/src/main/java/it/sunnyvale/academy/microservices/services/TraceService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/microservices/customer/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/microservices/docker-compose.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/microservices/start.sh" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/borrow/src/main/java/org/example/book/ProvaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/borrow/src/main/java/org/example/book/controllers/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/borrow/src/main/java/org/example/book/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/borrow/src/main/java/org/example/book/repos/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/borrow/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/customer/src/main/java/org/example/book/ProvaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/customer/src/main/java/org/example/book/controllers/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/customer/src/main/java/org/example/book/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/customer/src/main/java/org/example/book/repos/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/customer/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/notification/src/main/java/org/example/book/ProvaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/notification/src/main/java/org/example/book/controllers/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/notification/src/main/java/org/example/book/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/notification/src/main/java/org/example/book/repos/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/notification/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/book/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/book/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,13 +28,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="1lQlrJOtPoZxDEdMP0zXSyx0DEm" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -45,8 +35,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assignments/01-Library_application/mysolution/notification" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fidah\Documents\GitHub\ITS-ICT_Microservices\assignments\01-Library_application\mysolution\notification" />
+      <recent name="C:\Users\fidah\Documents\GitHub\ITS-ICT_Microservices\assignments\01-Library_application\mysolution\customer" />
+      <recent name="C:\Users\fidah\Documents\GitHub\ITS-ICT_Microservices\assignments\01-Library_application\mysolution\borrow" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d5b968e7-ccc8-4ca4-86c2-44361691c28b" name="Default Changelist" comment="" />
@@ -56,5 +55,16 @@
       <updated>1607537393545</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
