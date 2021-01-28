@@ -5,7 +5,7 @@ ADD ./pom.xml /app/pom.xml
 WORKDIR /app
 RUN mvn --batch-mode package ${MVN_ARGS}
 
-FROM openjdk:8
+FROM openjdk:11
 WORKDIR /app
 COPY --from=builder /app/target/*.jar app.jar
 EXPOSE 8104

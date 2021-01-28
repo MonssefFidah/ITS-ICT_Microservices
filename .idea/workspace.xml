@@ -2,23 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5b968e7-ccc8-4ca4-86c2-44361691c28b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/borrow/src/main/java/org/example/book/ProvaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/borrow/src/main/java/org/example/book/controllers/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/borrow/src/main/java/org/example/book/models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/borrow/src/main/java/org/example/book/repos/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/borrow/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/customer/src/main/java/org/example/book/ProvaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/customer/src/main/java/org/example/book/controllers/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/customer/src/main/java/org/example/book/models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/customer/src/main/java/org/example/book/repos/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/customer/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/notification/src/main/java/org/example/book/ProvaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/notification/src/main/java/org/example/book/controllers/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/notification/src/main/java/org/example/book/models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/notification/src/main/java/org/example/book/repos/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/notification/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/book/src/main/java/org/fidah/book/controllers/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/book/src/main/java/org/fidah/book/models/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/book/src/main/java/org/fidah/book/repos/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/customer/src/main/java/org/example/customer/repos/CustomerRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/book/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/book/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/book/src/main/java/org/example/book/ProvaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/book/src/main/java/org/fidah/book/ProvaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/book/src/main/java/org/example/book/controllers/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/borrow/src/main/java/org/example/borrow/controllers/BorrowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/book/src/main/java/org/example/book/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/borrow/src/main/java/org/example/borrow/models/Borrow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/book/src/main/java/org/example/book/repos/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/borrow/src/main/java/org/example/borrow/repos/BorrowRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/book/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/book/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/borrow/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/borrow/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/borrow/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/borrow/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/borrow/src/main/java/org/example/book/ProvaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/borrow/src/main/java/org/example/borrow/BorrowApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/borrow/src/main/java/org/example/book/controllers/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/customer/src/main/java/org/example/customer/controllers/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/borrow/src/main/java/org/example/book/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/customer/src/main/java/org/example/customer/models/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/borrow/src/main/java/org/example/book/repos/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/borrow/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/borrow/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/customer/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/customer/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/customer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/customer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/customer/src/main/java/org/example/book/ProvaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/customer/src/main/java/org/example/customer/CustomerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/customer/src/main/java/org/example/book/controllers/BookController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/customer/src/main/java/org/example/book/models/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/customer/src/main/java/org/example/book/repos/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/customer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/customer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/notification/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/notification/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/notification/src/main/java/org/example/book/ProvaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/notification/src/main/java/org/example/notification/NotificationApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/notification/src/main/java/org/example/book/controllers/BookController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/notification/src/main/java/org/example/book/models/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/notification/src/main/java/org/example/book/repos/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/notification/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/01-Library_application/mysolution/notification/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,10 +50,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assignments/01-Library_application/mysolution/notification" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="yaml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assignments/01-Library_application/mysolution" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fidah\Documents\GitHub\ITS-ICT_Microservices\assignments\01-Library_application\mysolution" />
       <recent name="C:\Users\fidah\Documents\GitHub\ITS-ICT_Microservices\assignments\01-Library_application\mysolution\notification" />
       <recent name="C:\Users\fidah\Documents\GitHub\ITS-ICT_Microservices\assignments\01-Library_application\mysolution\customer" />
       <recent name="C:\Users\fidah\Documents\GitHub\ITS-ICT_Microservices\assignments\01-Library_application\mysolution\borrow" />
@@ -66,5 +82,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

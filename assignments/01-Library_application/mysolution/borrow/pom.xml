@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example.borrow</groupId>
+    <groupId>org.fidah.borrow</groupId>
     <artifactId>borrow</artifactId>
     <version>1.0-SNAPSHOT</version>
 
@@ -134,7 +134,7 @@
                         <argument>-classpath</argument>
                         <classpath/>
                         <!-- Main class -->
-                        <argument>org.example.borrow.BorrowStarter</argument>
+                        <argument>org.fidah.borrow.BorrowStarter</argument>
                     </arguments>
                 </configuration>
             </plugin>
